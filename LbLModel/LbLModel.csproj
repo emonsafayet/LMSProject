@@ -48,6 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessDbContext.cs" />
+    <Compile Include="Migrations\201710271223573_Create mig.cs" />
+    <Compile Include="Migrations\201710271223573_Create mig.Designer.cs">
+      <DependentUpon>201710271223573_Create mig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Students\Students.cs" />
@@ -58,6 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Teachers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710271223573_Create mig.resx">
+      <DependentUpon>201710271223573_Create mig.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

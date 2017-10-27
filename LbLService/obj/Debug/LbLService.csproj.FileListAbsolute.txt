@@ -1,1 +1,16 @@
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLService.dll.config
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLService.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLService.pdb
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\EntityFramework.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbL.Repository.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLModel.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbL.Repository.pdb
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbL.Repository.dll.config
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLModel.pdb
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\LbLModel.dll.config
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\EntityFramework.xml
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\obj\Debug\LbLService.csprojResolveAssemblyReference.cache
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\obj\Debug\LbLService.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLService\obj\Debug\LbLService.pdb

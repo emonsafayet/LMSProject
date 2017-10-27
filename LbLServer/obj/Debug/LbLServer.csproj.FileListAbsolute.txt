@@ -66,6 +66,8 @@ C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\S
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\System.Web.WebPages.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\System.Web.WebPages.Razor.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\WebGrease.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\EntityFramework.xml
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\EntityFramework.SqlServer.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Newtonsoft.Json.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\System.Net.Http.Formatting.xml
@@ -79,8 +81,6 @@ C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\S
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\System.Web.WebPages.Deployment.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\System.Web.WebPages.Razor.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Antlr3.Runtime.pdb
-C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\EntityFramework.xml
-C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\EntityFramework.SqlServer.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
