@@ -7,13 +7,13 @@ namespace LbLModel.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Createmig : IMigrationMetadata
+    public sealed partial class Createdb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Createmig));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Createdb));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710271223573_Create mig"; }
+            get { return "201710271310428_Create db"; }
         }
         
         string IMigrationMetadata.Source

@@ -12,8 +12,8 @@ namespace LbLService
     {
         public bool Add(Student student)
         {
-            StudentRepository repositoy = new StudentRepository();
-            return repositoy.Add(student);
+            StudentRepository repository = new StudentRepository();
+            return repository.Add(student);
         }
     }
 }

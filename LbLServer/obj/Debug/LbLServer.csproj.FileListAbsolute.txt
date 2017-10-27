@@ -99,6 +99,5 @@ C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\M
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\bin\Microsoft.AI.Web.xml
-C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\obj\Debug\LbLServer.csprojResolveAssemblyReference.cache
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\obj\Debug\LbLServer.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLServer\obj\Debug\LbLServer.pdb

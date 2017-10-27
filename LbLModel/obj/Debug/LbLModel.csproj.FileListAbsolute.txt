@@ -5,8 +5,7 @@ C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\bin\De
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\bin\Debug\EntityFramework.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.csprojResolveAssemblyReference.cache
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.pdb
-C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.Migrations.Createmig.resources
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.Migrations.Createdb.resources
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbLModel\obj\Debug\LbLModel.csproj.GenerateResource.Cache

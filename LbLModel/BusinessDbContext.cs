@@ -1,4 +1,5 @@
 ﻿using LbLModel.Students;
+using LbLModel.Teachers;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -15,5 +16,6 @@ namespace LbLModel
 
         }
         public DbSet<Student> students { get; set; }
+        public DbSet<Teacher> teachers { get; set; }
     }
 }
