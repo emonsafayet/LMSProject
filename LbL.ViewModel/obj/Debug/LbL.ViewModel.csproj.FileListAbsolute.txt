@@ -1,0 +1,10 @@
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\LbL.ViewModel.dll.config
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\LbL.ViewModel.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\LbL.ViewModel.pdb
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\EntityFramework.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\EntityFramework.xml
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\obj\Debug\LbL.ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\obj\Debug\LbL.ViewModel.dll
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.ViewModel\obj\Debug\LbL.ViewModel.pdb
