@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LbLModel
 {
-    class BusinessDbContext : DbContext
+    public class BusinessDbContext : DbContext
     {
         public BusinessDbContext() : base("DefaultBusinessConnection")
         {
