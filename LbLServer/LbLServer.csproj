@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,11 +59,17 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -228,6 +235,10 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\student\StudentController.cs" />
+    <Compile Include="Controllers\student\StudentQueryController.cs" />
+    <Compile Include="Controllers\teacher\TeacherController.cs" />
+    <Compile Include="Controllers\teacher\TeacherQueryController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -314,6 +325,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LbL.Repository\LbL.Repository.csproj">
+      <Project>{d256a6ab-20f5-45d2-8ccf-dbefaf1dbbb8}</Project>
+      <Name>LbL.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LbL.ViewModel\LbL.ViewModel.csproj">
+      <Project>{0371b424-9729-45c8-bce9-e547f6247988}</Project>
+      <Name>LbL.ViewModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LbLModel\LbLModel.csproj">
+      <Project>{2bb753c1-17e8-4527-b234-d4649452701e}</Project>
+      <Name>LbLModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LbLRequestModel\LbLRequestModel.csproj">
+      <Project>{310ac430-66eb-428f-8716-57c9ec2835f8}</Project>
+      <Name>LbLRequestModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LbLService\LbLService.csproj">
+      <Project>{b3de80d1-48dd-4fe7-b6a0-200d4f32bf92}</Project>
+      <Name>LbLService</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -22,7 +22,11 @@ namespace LbL.Repository
             student.Id = Guid.NewGuid().ToString();
             this.db.students.Add(student);
             int savechanges = this.db.SaveChanges();
-            return savechanges > 0;
+            return savechanges>0;
+        }
+        public IQueryable<Student> Get()
+        {
+            return this.db.students.AsQueryable();
         }
     }
 }

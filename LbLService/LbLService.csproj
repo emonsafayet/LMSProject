@@ -64,6 +64,10 @@
       <Project>{2BB753C1-17E8-4527-B234-D4649452701E}</Project>
       <Name>LbLModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LbLRequestModel\LbLRequestModel.csproj">
+      <Project>{310AC430-66EB-428F-8716-57C9EC2835F8}</Project>
+      <Name>LbLRequestModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

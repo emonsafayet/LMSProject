@@ -9,5 +9,6 @@ C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\bin\Debug\EntityFramework.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\obj\Debug\LbL.Repository.csprojResolveAssemblyReference.cache
+C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\obj\Debug\LbL.Repository.csproj.CoreCompileInputs.cache
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\obj\Debug\LbL.Repository.dll
 C:\Users\safayet\Documents\Visual Studio 2017\Projects\LbLServer\LbL.Repository\obj\Debug\LbL.Repository.pdb
