@@ -51,6 +51,7 @@ namespace LbLService
             students = students.Skip((request.Page - 1) * 10).Take(request.PerPageCount);
 
             //they we do the toList (to fetch resltant data to the memory)
+
             List<Student> list = students.ToList(); // hit to database and execute the Query
             return list;
         }
