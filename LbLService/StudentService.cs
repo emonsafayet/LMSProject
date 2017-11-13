@@ -38,15 +38,18 @@ namespace LbLService
 
             students = students.OrderBy(x => x.Modified);
 
-            if (request.OrderBy == "Name")
+            if (!string.IsNullOrWhiteSpace(request.OrderBy))
             {
-                students = request.IsAscending ? students.OrderBy(x => x.Name) : students.OrderByDescending(x => x.Name);
+                if (request.OrderBy.ToLower() == "name")
+                {
+                    students = request.IsAscending ? students.OrderBy(x => x.Name) : students.OrderByDescending(x => x.Name);
 
-            }
-            if (request.OrderBy == "Phone")
-            {
-                students = request.IsAscending ? students.OrderBy(x => x.Phone) : students.OrderByDescending(x => x.Phone);
+                }
+                if (request.OrderBy.ToLower() == "phone")
+                {
+                    students = request.IsAscending ? students.OrderBy(x => x.Phone) : students.OrderByDescending(x => x.Phone);
 
+                }
             }
             students = students.Skip((request.Page - 1) * 10).Take(request.PerPageCount);
 
