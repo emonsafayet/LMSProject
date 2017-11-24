@@ -1,16 +1,14 @@
 ﻿using LbLModel;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace LbL.Repository
 {
     public class TeacherRepository
     {
         private BusinessDbContext db;
-       
+
         public TeacherRepository()
         {
             this.db = new BusinessDbContext();
@@ -22,6 +20,14 @@ namespace LbL.Repository
             int savechanges = this.db.SaveChanges();
             return savechanges > 0;
         }
-
+        public IQueryable<Teacher> Get()
+        {
+            return this.db.Teachers.AsQueryable();
+        }
+        public Teacher GetDetail(string id)
+        {
+            return this.db.Teachers.Find(id);
+        }
     }
 }
+
