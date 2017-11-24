@@ -60,6 +60,10 @@
       <Project>{D256A6AB-20F5-45D2-8CCF-DBEFAF1DBBB8}</Project>
       <Name>LbL.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LbL.ViewModel\LbL.ViewModel.csproj">
+      <Project>{0371B424-9729-45C8-BCE9-E547F6247988}</Project>
+      <Name>LbL.ViewModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LbLModel\LbLModel.csproj">
       <Project>{2BB753C1-17E8-4527-B234-D4649452701E}</Project>
       <Name>LbLModel</Name>

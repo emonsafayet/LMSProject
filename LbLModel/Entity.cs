@@ -10,7 +10,7 @@ namespace LbLModel.Model
 
         [Index]
         [Required]
-        public DateTime Created { get; set; }
+        public string Created { get; set; }
 
         [Index]
         [Required]

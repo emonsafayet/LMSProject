@@ -1,5 +1,4 @@
 ﻿using LbLModel;
-using LbLModel.Students;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,13 +19,17 @@ namespace LbL.Repository
         public bool Add(Student student)
         {
             student.Id = Guid.NewGuid().ToString();
-            this.db.students.Add(student);
+            this.db.Students.Add(student);
             int savechanges = this.db.SaveChanges();
             return savechanges>0;
         }
         public IQueryable<Student> Get()
         {
-            return this.db.students.AsQueryable();
+            return this.db.Students.AsQueryable();
+        }
+        public Student GetDetail(string id)
+        {
+            return this.db.Students.Find(id);
         }
     }
 }

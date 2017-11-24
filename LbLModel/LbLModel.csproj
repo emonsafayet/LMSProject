@@ -48,23 +48,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessDbContext.cs" />
-    <Compile Include="Migrations\201710271310428_Create db.cs" />
-    <Compile Include="Migrations\201710271310428_Create db.Designer.cs">
-      <DependentUpon>201710271310428_Create db.cs</DependentUpon>
+    <Compile Include="Migrations\201711241903321_TeacherAdded.cs" />
+    <Compile Include="Migrations\201711241903321_TeacherAdded.Designer.cs">
+      <DependentUpon>201711241903321_TeacherAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711241905478_StudentAdded.cs" />
+    <Compile Include="Migrations\201711241905478_StudentAdded.Designer.cs">
+      <DependentUpon>201711241905478_StudentAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entity.cs" />
-    <Compile Include="Students\Students.cs" />
-    <Compile Include="Teachers\Teacher.cs" />
+    <Compile Include="Students.cs" />
+    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710271310428_Create db.resx">
-      <DependentUpon>201710271310428_Create db.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201711241903321_TeacherAdded.resx">
+      <DependentUpon>201711241903321_TeacherAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711241905478_StudentAdded.resx">
+      <DependentUpon>201711241905478_StudentAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

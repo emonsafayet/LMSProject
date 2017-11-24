@@ -1,7 +1,9 @@
 ﻿using LbL.Repository;
-using LbLModel.Students;
+using LbL.ViewModel;
+using LbLModel;
 using LbLRequestModel;
 using System.Collections.Generic;
+using System.Data.Entity.Core;
 using System.Linq;
 
 namespace LbLService
@@ -20,7 +22,7 @@ namespace LbLService
 
             return repository.Add(student);
         }
-        public List<Student> Search(StudentRequestModel request)
+        public List<StudentGridViewModel> Search(StudentRequestModel request)
         {
             //we need a queryable varialbe
             IQueryable<Student> students = this.repository.Get();
@@ -51,12 +53,25 @@ namespace LbLService
 
                 }
             }
+
             students = students.Skip((request.Page - 1) * 10).Take(request.PerPageCount);
 
             //they we do the toList (to fetch resltant data to the memory)
 
-            List<Student> list = students.ToList(); // hit to database and execute the Query
+           var list = students.ToList().ConvertAll(x=>new StudentGridViewModel(x));
             return list;
+        }
+        public StudentDetailViewModel Detail(string id) {
+            Student x =this.repository.GetDetail(id);
+
+            if (x == null)
+            {
+                throw new ObjectNotFoundException();
+            }
+
+            var vm = new StudentDetailViewModel(x);
+            return vm;
+
         }
     }
 }

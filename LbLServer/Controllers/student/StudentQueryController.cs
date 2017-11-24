@@ -1,4 +1,4 @@
-﻿using LbLModel.Students;
+﻿using LbLModel;
 using LbLRequestModel;
 using LbLService;
 using System;

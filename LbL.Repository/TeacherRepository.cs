@@ -1,5 +1,4 @@
 ﻿using LbLModel;
-using LbLModel.Teachers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +18,7 @@ namespace LbL.Repository
         public bool Add(Teacher teacher)
         {
             teacher.Id = Guid.NewGuid().ToString();
-            this.db.teachers.Add(teacher);
+            this.db.Teachers.Add(teacher);
             int savechanges = this.db.SaveChanges();
             return savechanges > 0;
         }
